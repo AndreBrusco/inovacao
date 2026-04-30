@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #F8F9FA;
+    color: #1A1A2E;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-senate-gold text-senate-blue font-semibold px-6 py-3 rounded-xl hover:bg-yellow-400 transition-all duration-200 shadow-md hover:shadow-lg;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-200;
+  }
+}
+
+@layer utilities {
+  .gradient-hero {
+    background: linear-gradient(135deg, #005A30 0%, #003366 100%);
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Animações */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes progressFill {
+  from { width: 0%; }
+  to { width: var(--progress-width); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.animate-progress {
+  animation: progressFill 1s ease-out forwards;
+}
+
+/* Stagger para cards */
+.card-grid > *:nth-child(1) { animation-delay: 0.05s; }
+.card-grid > *:nth-child(2) { animation-delay: 0.10s; }
+.card-grid > *:nth-child(3) { animation-delay: 0.15s; }
+.card-grid > *:nth-child(4) { animation-delay: 0.20s; }
+.card-grid > *:nth-child(5) { animation-delay: 0.25s; }
+.card-grid > *:nth-child(6) { animation-delay: 0.30s; }
+.card-grid > *:nth-child(7) { animation-delay: 0.35s; }
+.card-grid > *:nth-child(8) { animation-delay: 0.40s; }
+.card-grid > *:nth-child(9) { animation-delay: 0.45s; }
+.card-grid > *:nth-child(10) { animation-delay: 0.50s; }
+
+/* Accordion pill */
+.pill-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.2s ease;
+}
+.pill-body.open {
+  max-height: 600px;
+}
