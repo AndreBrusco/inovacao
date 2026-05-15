@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight, ChevronRight, Home } from 'lucide-react'
 import Pill from '../components/Pill'
 import ProgressBar from '../components/ProgressBar'
 import VideoEmbed from '../components/VideoEmbed'
+import ModuleChallenge from '../components/ModuleChallenge'
 import { modules } from '../data/modules'
 import { useProgress } from '../hooks/useProgress'
 
@@ -99,6 +100,9 @@ export default function Module() {
           />
         ))}
       </div>
+
+      {/* Desafio (se disponível para este módulo) */}
+      {module.challenge && <ModuleChallenge challenge={module.challenge} />}
 
       {/* Navegação entre módulos */}
       <div className="border-t border-gray-100 pt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">

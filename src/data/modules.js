@@ -27,6 +27,14 @@ export const modules = [
         body: 'Investimentos globais em P&D ultrapassaram US$ 2,4 trilhões. 90% das organizações planejam aumentar investimentos em inovação digital até 2027 (Gartner/McKinsey). Não inovar também é uma escolha — e tem custo. A diferença entre organizações que crescem e as que encolhem está na capacidade de se adaptar.',
       },
     ],
+    challenge: {
+      intro:
+        'O Manual de Oslo é a referência mundial para medir e entender inovação — publicado pela OCDE, ele define o que conta como inovação, como classificá-la e como ela é medida. Sim, ele tem mais de 200 páginas... e não esperamos que você leia tudo agora. 😄 Por isso, criamos dois desafios para você explorar o Manual de uma forma mais inteligente e criativa.',
+      task1Questions: [
+        'O que define uma inovação e como ela é medida?',
+        'Quais as diferenças entre inovação de produto e de processo?',
+      ],
+    },
   },
   {
     id: 2,
