@@ -61,11 +61,10 @@ function PromptBlock() {
         </div>
         <button
           onClick={handleCopy}
-          className={`inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg transition-all duration-200 ${
-            copied
+          className={`inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg transition-all duration-200 ${copied
               ? 'bg-green-600 text-white'
               : 'bg-gray-700 text-gray-300 hover:bg-gray-600 hover:text-white'
-          }`}
+            }`}
         >
           {copied ? (
             <>
