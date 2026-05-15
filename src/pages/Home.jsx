@@ -1,7 +1,8 @@
 import { useMemo } from 'react'
 import Hero from '../components/Hero'
-import ModuleCard from '../components/ModuleCard'
+import LessonSection from '../components/LessonSection'
 import { modules } from '../data/modules'
+import { lessons } from '../data/lessons'
 import { useProgress } from '../hooks/useProgress'
 
 export default function Home() {
@@ -14,12 +15,17 @@ export default function Home() {
     }).length
   }, [getModuleProgress])
 
+  const moduleMap = useMemo(
+    () => Object.fromEntries(modules.map((m) => [m.id, m])),
+    []
+  )
+
   return (
     <div>
       <Hero totalModules={modules.length} completedModules={completedModules} />
 
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-12" id="modulos">
-        <div className="mb-8">
+        <div className="mb-10">
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-gray-900">
             Módulos do curso
           </h2>
@@ -28,19 +34,23 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 card-grid">
-          {modules.map((module, i) => (
-            <ModuleCard
-              key={module.id}
-              module={module}
-              readPills={getModuleProgress(module.id)}
-              index={i}
+        {lessons.map((lesson) => {
+          const lessonModules = lesson.moduleIds
+            .map((id) => moduleMap[id])
+            .filter(Boolean)
+
+          return (
+            <LessonSection
+              key={lesson.id}
+              lesson={lesson}
+              modules={lessonModules}
+              getModuleProgress={getModuleProgress}
             />
-          ))}
-        </div>
+          )
+        })}
 
         {completedModules === modules.length && (
-          <div className="mt-12 text-center py-10 rounded-3xl bg-gradient-to-r from-senate-green to-senate-blue text-white">
+          <div className="mt-4 text-center py-10 rounded-3xl bg-gradient-to-r from-senate-green to-senate-blue text-white">
             <div className="text-4xl mb-3">🎉</div>
             <h3 className="font-display text-2xl font-bold mb-2">Curso concluído!</h3>
             <p className="text-green-100">
