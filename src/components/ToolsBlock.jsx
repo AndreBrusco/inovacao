@@ -209,25 +209,23 @@ function ToolCard({ tool }) {
       href={tool.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex flex-col bg-white rounded-xl border border-gray-200 hover:border-senate-green/50 hover:shadow-md transition-all duration-200 overflow-hidden"
+      className="group flex items-start gap-3 bg-white rounded-xl border border-gray-200 hover:border-senate-green/40 hover:shadow-sm transition-all duration-200 p-3"
     >
-      <div className="flex items-center gap-3 p-4 border-b border-gray-100">
-        <div className="w-11 h-11 rounded-lg overflow-hidden flex-shrink-0 bg-gray-50 flex items-center justify-center">
-          <ToolLogo name={tool.name} />
-        </div>
-        <div className="min-w-0">
-          <h4 className="font-semibold text-gray-900 text-sm group-hover:text-senate-green transition-colors truncate">
+      <div className="w-9 h-9 rounded-lg overflow-hidden flex-shrink-0 bg-gray-50 flex items-center justify-center">
+        <ToolLogo name={tool.name} />
+      </div>
+      <div className="min-w-0 flex-1">
+        <div className="flex items-center gap-2 flex-wrap mb-0.5">
+          <h4 className="font-semibold text-gray-800 text-xs group-hover:text-senate-green transition-colors">
             {tool.name}
           </h4>
-          <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${catColor}`}>
+          <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-medium ${catColor}`}>
             {tool.category}
           </span>
         </div>
-      </div>
-      <div className="p-4 flex flex-col gap-3 flex-1">
-        <p className="text-sm text-gray-600 leading-relaxed flex-1">{tool.description}</p>
-        <span className="text-xs font-semibold text-senate-green flex items-center gap-1 group-hover:underline">
-          Acessar ferramenta →
+        <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">{tool.description}</p>
+        <span className="text-[10px] font-semibold text-senate-green mt-1 inline-block group-hover:underline">
+          Acessar →
         </span>
       </div>
     </a>
@@ -241,21 +239,14 @@ export default function ToolsBlock({ tools }) {
       : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <div className="mt-6 bg-gradient-to-br from-blue-100 to-slate-100 rounded-2xl border border-gray-200 p-6">
-      <div className="flex items-center gap-3 mb-5">
-        <div className="w-9 h-9 rounded-lg bg-senate-green/10 flex items-center justify-center text-lg flex-shrink-0">
-          🛠️
-        </div>
-        <div>
-          <h2 className="font-display font-bold text-gray-900 text-2xl leading-tight">
-            Ferramentas de IA e Inovação
-          </h2>
-          <p className="text-base text-gray-500 mt-0.5">
-            Ferramentas que complementam o conteúdo desta aula
-          </p>
-        </div>
+    <div className="mt-4 bg-gray-50 rounded-xl border border-gray-200 p-4">
+      <div className="flex items-center gap-2 mb-3">
+        <span className="text-base">🛠️</span>
+        <h3 className="font-semibold text-gray-600 text-xs uppercase tracking-wider">
+          Ferramentas de IA e Inovação
+        </h3>
       </div>
-      <div className={`grid gap-4 ${cols}`}>
+      <div className={`grid gap-3 ${cols}`}>
         {tools.map((tool) => (
           <ToolCard key={tool.name} tool={tool} />
         ))}

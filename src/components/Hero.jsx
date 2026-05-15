@@ -29,12 +29,6 @@ export default function Hero({ totalModules, completedModules }) {
               Começar agora
               <ArrowRight size={18} />
             </a>
-            <a
-              href="#modulos"
-              className="inline-flex items-center gap-2 border-2 border-green-400 text-white font-semibold px-6 py-3 rounded-xl hover:bg-white/10 transition-all duration-200"
-            >
-              Ver módulos
-            </a>
           </div>
 
           {completedModules > 0 && (

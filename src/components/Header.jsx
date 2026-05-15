@@ -29,12 +29,6 @@ export default function Header() {
           >
             Início
           </Link>
-          <a
-            href="#modulos"
-            className="text-sm font-medium text-green-100 hover:text-white transition-colors"
-          >
-            Módulos
-          </a>
           <span className="text-green-200 text-xs border border-green-700 rounded-full px-3 py-1">
             2h EAD
           </span>
@@ -58,13 +52,6 @@ export default function Header() {
           >
             Início
           </Link>
-          <a
-            href="#modulos"
-            className="text-green-100 text-sm py-1"
-            onClick={() => setMenuOpen(false)}
-          >
-            Módulos
-          </a>
         </div>
       )}
     </header>
