@@ -9,7 +9,7 @@ export default function Hero({ totalModules, completedModules }) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
         <div className="max-w-3xl">
           <span className="inline-block bg-senate-gold text-senate-blue text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
-            PFG 2025 · Instituto Legislativo Brasileiro
+            PFG 2026 · Instituto Legislativo Brasileiro
           </span>
 
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
@@ -18,7 +18,7 @@ export default function Hero({ totalModules, completedModules }) {
           </h1>
 
           <p className="text-green-100 text-lg sm:text-xl leading-relaxed mb-8 max-w-2xl">
-            10 módulos, pílulas de conhecimento diretas ao ponto e ferramentas que você já pode usar na segunda-feira. Sem enrolação, sem jargão vazio.
+            10 módulos, desafios inovadores e pílulas de conhecimento diretas ao ponto e ferramentas que você já pode usar na segunda-feira.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-10">
@@ -61,6 +61,10 @@ export default function Hero({ totalModules, completedModules }) {
             <div className="flex items-center gap-2">
               <Zap size={16} className="text-senate-gold" />
               <span>50+ pílulas de conhecimento</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Zap size={16} className="text-senate-gold" />
+              <span>6+ Ferramentas Inovadoras </span>
             </div>
             <div className="flex items-center gap-2">
               <Users size={16} className="text-senate-gold" />

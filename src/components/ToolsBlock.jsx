@@ -1,12 +1,12 @@
 const categoryColors = {
   'Criação Visual': 'bg-orange-100 text-orange-700',
-  'Colaboração':    'bg-blue-100 text-blue-700',
-  'Pesquisa':       'bg-emerald-100 text-emerald-700',
-  'Diagramação':    'bg-purple-100 text-purple-700',
-  'Produtividade':  'bg-slate-100 text-slate-700',
-  'Design':         'bg-pink-100 text-pink-700',
-  'IA Generativa':  'bg-amber-100 text-amber-700',
-  'Desenvolvimento':'bg-teal-100 text-teal-700',
+  'Colaboração': 'bg-blue-100 text-blue-700',
+  'Pesquisa': 'bg-emerald-100 text-emerald-700',
+  'Diagramação': 'bg-purple-100 text-purple-700',
+  'Produtividade': 'bg-slate-100 text-slate-700',
+  'Design': 'bg-pink-100 text-pink-700',
+  'IA Generativa': 'bg-amber-100 text-amber-700',
+  'Desenvolvimento': 'bg-teal-100 text-teal-700',
 }
 
 /* ---------- Inline SVG logos ---------- */
@@ -182,15 +182,15 @@ function LogoClaudeCode() {
 }
 
 const LOGOS = {
-  'Leonardo AI':  LogoLeonardoAI,
-  'Miro':         LogoMiro,
-  'NotebookLM':   LogoNotebookLM,
-  'Excalidraw':   LogoExcalidraw,
-  'Notion':       LogoNotion,
-  'Figma':        LogoFigma,
-  'Canva':        LogoCanva,
-  'Claude':       LogoClaude,
-  'Claude Code':  LogoClaudeCode,
+  'Leonardo AI': LogoLeonardoAI,
+  'Miro': LogoMiro,
+  'NotebookLM': LogoNotebookLM,
+  'Excalidraw': LogoExcalidraw,
+  'Notion': LogoNotion,
+  'Figma': LogoFigma,
+  'Canva': LogoCanva,
+  'Claude': LogoClaude,
+  'Claude Code': LogoClaudeCode,
 }
 
 function ToolLogo({ name }) {
@@ -241,16 +241,16 @@ export default function ToolsBlock({ tools }) {
       : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'
 
   return (
-    <div className="mt-6 bg-gradient-to-br from-gray-50 to-slate-100 rounded-2xl border border-gray-200 p-6">
+    <div className="mt-6 bg-gradient-to-br from-blue-100 to-slate-100 rounded-2xl border border-gray-200 p-6">
       <div className="flex items-center gap-3 mb-5">
         <div className="w-9 h-9 rounded-lg bg-senate-green/10 flex items-center justify-center text-lg flex-shrink-0">
           🛠️
         </div>
         <div>
-          <h3 className="font-display font-bold text-gray-900 text-base leading-tight">
+          <h2 className="font-display font-bold text-gray-900 text-2xl leading-tight">
             Ferramentas de IA e Inovação
-          </h3>
-          <p className="text-xs text-gray-500 mt-0.5">
+          </h2>
+          <p className="text-base text-gray-500 mt-0.5">
             Ferramentas que complementam o conteúdo desta aula
           </p>
         </div>
