@@ -64,6 +64,10 @@ export const modules = [
         body: '"Precisamos de um novo sistema de TI" já contém a solução — e fecha o pensamento antes de explorar alternativas. O correto: "Servidores não conseguem acompanhar o andamento de seus processos em tempo real." Aí sim você pode considerar um sistema, uma planilha compartilhada, um painel físico ou outras opções.',
       },
     ],
+    challenge: {
+      type: 'image-gen',
+      image: '/images/modulo2-rampa.jpg',
+    },
   },
   {
     id: 3,
