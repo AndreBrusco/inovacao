@@ -30,13 +30,6 @@ const suggestions = [
     badge: 'bg-sky-100 text-sky-600',
   },
   {
-    emoji: '🎪',
-    title: 'Versão carnaval',
-    tip: 'Adicione "everyone wearing carnival costumes, confetti everywhere"',
-    color: 'bg-pink-50 border-pink-200 text-pink-800 hover:bg-pink-100',
-    badge: 'bg-pink-100 text-pink-600',
-  },
-  {
     emoji: '🤖',
     title: 'Versão robótica',
     tip: 'Substitua "government workers" por "robots in business suits"',
