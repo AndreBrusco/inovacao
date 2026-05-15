@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-senate-gold rounded-lg flex items-center justify-center">
                 <BookOpen size={18} className="text-senate-blue" />
               </div>
-              <span className="font-display font-bold">Inovação · PFG 2025</span>
+              <span className="font-display font-bold">Inovação · PFG 2026</span>
             </div>
             <p className="text-blue-200 text-sm">
               Plataforma EAD complementar às aulas presenciais.<br />
@@ -27,7 +27,7 @@ export default function Footer() {
 
         <div className="border-t border-blue-800 mt-8 pt-6 text-center">
           <p className="text-blue-400 text-xs">
-            © 2025 Instituto Legislativo Brasileiro. Material de uso educacional exclusivo do PFG 2025.
+            © 2026 Instituto Legislativo Brasileiro. Material de uso educacional.
           </p>
         </div>
       </div>
