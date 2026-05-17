@@ -7,24 +7,24 @@ export const modules = [
     accentLight: '#E8F5E9',
     pills: [
       {
-        title: 'Invenção vs. Inovação',
-        body: 'Invenção é criar algo novo. Inovação é implementar isso gerando valor. Exemplo clássico: a lâmpada foi inventada por Edison — mas a iluminação pública em massa foi a inovação que mudou o mundo. Sem adoção e geração de valor, é só invenção.',
+        title: 'O que é o Manual de Oslo',
+        body: 'O Manual de Oslo é o guia internacional da OCDE (4ª edição, 2018) para coletar, reportar e usar dados sobre inovação. É o padrão de referência mundial desde 1992, usado por governos, pesquisadores e gestores para medir e comparar inovação entre países e setores. Sua definição central: inovação é um produto ou processo novo ou melhorado que difere significativamente do anterior e foi colocado em uso ou disponibilizado para outros. Sem implementação, não é inovação.',
       },
       {
-        title: 'Manual de Oslo',
-        body: 'Inovação não precisa ser inédita no mundo. O Manual de Oslo — referência internacional da OCDE — define que inovação pode ser um produto, processo ou serviço novo *para você ou sua organização*, desde que gere valor real. A régua é o impacto, não o ineditismo.',
+        title: 'Ideia, Invenção, Inovação e Melhoria Contínua',
+        body: 'Ideia: conceito ou insight que existe apenas na mente, sem forma concreta.\n\nInvenção: ideia com forma concreta, como um protótipo, patente ou modelo. Não exige uso real e pode nunca chegar ao mercado.\n\nInovação: invenção ou melhoria implementada, colocada em uso ou disponibilizada para outros. O Manual de Oslo é direto: "Innovation is more than a new idea or an invention. An innovation requires implementation." Esse é o critério central.\n\nMelhoria contínua: ajustes incrementais regulares a processos e produtos existentes. Pode ou não ser inovação, dependendo se a mudança é significativa o suficiente para "diferir substancialmente" do que existia antes.',
       },
       {
-        title: 'Incremental vs. Disruptiva',
-        body: 'Inovação incremental são pequenas melhorias contínuas — uma atualização de sistema, um novo campo num formulário, uma reunião mais curta. Inovação disruptiva rompe modelos existentes e cria novos mercados — como a Netflix fez com as locadoras. Ambas são necessárias; o erro é apostar só em disrupção.',
+        title: 'Inovação Incremental vs. Disruptiva',
+        body: 'Inovação incremental são melhorias graduais sobre o que já existe. Menor risco, menor impacto imediato, mas base do progresso contínuo de qualquer organização. Exemplos: um novo campo num formulário, uma reunião mais curta, digitalizar um processo manual.\n\nInovação disruptiva rompe modelos existentes e cria novos mercados ou destrói os antigos. É o que Schumpeter chamou de "destruição criativa". Exemplos: a Netflix frente às locadoras, o Pix frente às transferências bancárias tradicionais.\n\nUm ponto importante: o Manual de Oslo distingue "novo para o mundo" (disruptivo) de "novo para a organização" (incremental). Os dois são inovação legítima. No setor público, a maioria das inovações é incremental, e isso não é fraqueza, é realidade e tem enorme valor acumulado.',
       },
       {
-        title: 'Inovação não depende de TI',
-        body: 'Reorganizar um agendamento, simplificar um formulário, mudar o fluxo de atendimento, criar um roteiro de onboarding para novos servidores — tudo isso já é inovar. Tecnologia é meio, não fim. A pergunta não é "qual sistema usar?" mas "qual problema resolver?"',
+        title: 'Avaliação da Inovação: Critérios da OCDE',
+        body: 'O Comitê de Ajuda ao Desenvolvimento da OCDE (DAC) definiu seis critérios para avaliar programas e inovações:\n\nRelevância: a inovação resolve o problema certo? Responde a necessidades reais dos usuários?\n\nCoerência: está alinhada com outras políticas e prioridades da organização? (critério incluído na revisão de 2019)\n\nEficácia: os objetivos foram atingidos? Fez o que prometeu?\n\nEficiência: a que custo? Os recursos de tempo, dinheiro e pessoas foram bem utilizados?\n\nImpacto: que diferença fez de verdade? Quais os efeitos de médio e longo prazo, previstos ou não?\n\nSustentabilidade: os benefícios persistem após o fim do projeto? Pode ser replicado em outros contextos?\n\nA pergunta síntese: você está medindo se fez certo (eficiência), se fez a coisa certa (relevância e eficácia), e se vai continuar fazendo (sustentabilidade)?',
       },
       {
-        title: 'O Boom da Inovação',
-        body: 'Investimentos globais em P&D ultrapassaram US$ 2,4 trilhões. 90% das organizações planejam aumentar investimentos em inovação digital até 2027 (Gartner/McKinsey). Não inovar também é uma escolha — e tem custo. A diferença entre organizações que crescem e as que encolhem está na capacidade de se adaptar.',
+        title: 'Inovação e Tecnologia',
+        body: 'Tecnologia não é requisito de inovação. O Manual de Oslo é explícito: inovação pode não envolver pesquisa e desenvolvimento (P&D) ou novas tecnologias. Inovação também ocorre pela difusão de tecnologias e práticas já existentes para novos contextos. Reorganizar um fluxo de atendimento ao cidadão pode ser tão inovador quanto criar um algoritmo.\n\nA 4ª edição do Manual (2018) incorporou digitalização, dados e software como vetores de inovação mensuráveis, mas sem torná-los obrigatórios. A pergunta certa não é "qual sistema vamos usar?", mas "qual problema precisamos resolver?". Tecnologia é meio, não fim.',
       },
     ],
     challenge: {

@@ -10,7 +10,7 @@ export default function ModuleCard({ module, readPills = [], index }) {
   return (
     <Link
       to={`/modulo/${module.id}`}
-      className="card p-5 flex flex-col gap-4 animate-fade-in-up opacity-0 group"
+      className="card p-10 flex flex-col gap-3 animate-fade-in-up opacity-0 group"
       style={{ animationFillMode: 'forwards' }}
     >
       <div className="flex items-start justify-between gap-3">
@@ -28,7 +28,7 @@ export default function ModuleCard({ module, readPills = [], index }) {
 
       <div className="flex-1">
         <span
-          className="text-xs font-bold uppercase tracking-wider"
+          className="text-base font-bold uppercase tracking-wider"
           style={{ color: module.accentColor }}
         >
           Módulo {module.id}
