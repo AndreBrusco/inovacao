@@ -77,3 +77,7 @@
 .pill-body.open {
   max-height: 600px;
 }
+
+/* Pill content styles */
+.pill-content p { margin-bottom: 0.75rem; line-height: 1.65; }
+.pill-content p:last-child { margin-bottom: 0; }
