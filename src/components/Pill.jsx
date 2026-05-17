@@ -42,9 +42,10 @@ export default function Pill({ pill, index, isRead, onToggleRead, accentColor, a
       <div className={`pill-body ${open ? 'open' : ''}`}>
         <div className="px-4 pb-4">
           <div className="ml-12">
-            <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-4">
-              {pill.body}
-            </p>
+            <div
+              className="text-gray-600 text-sm sm:text-base leading-relaxed mb-4 pill-content"
+              dangerouslySetInnerHTML={{ __html: pill.body }}
+            />
 
             <button
               onClick={(e) => {
