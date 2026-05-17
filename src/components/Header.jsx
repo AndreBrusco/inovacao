@@ -16,16 +16,15 @@ export default function Header() {
           </div>
           <div className="leading-tight">
             <p className="font-display font-bold text-sm sm:text-base">Inovação</p>
-            <p className="text-senate-gold text-xs hidden sm:block">PFG 2025 · ILB</p>
+            <p className="text-senate-gold text-xs hidden sm:block">PFG 2026 · ILB</p>
           </div>
         </Link>
 
         <nav className="hidden sm:flex items-center gap-6">
           <Link
             to="/"
-            className={`text-sm font-medium transition-colors ${
-              isHome ? 'text-senate-gold' : 'text-green-100 hover:text-white'
-            }`}
+            className={`text-sm font-medium transition-colors ${isHome ? 'text-senate-gold' : 'text-green-100 hover:text-white'
+              }`}
           >
             Início
           </Link>
