@@ -88,16 +88,6 @@ export const modules = [
 
   <div class="flex gap-3 items-start">
     <div class="w-16 flex-shrink-0 text-right">
-      <span class="inline-block bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded">1919</span>
-    </div>
-    <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
-      <p class="text-sm font-semibold text-gray-900">Bauhaus</p>
-      <p class="text-xs text-gray-600">Escola alemã já praticava multidisciplinaridade e resolução de problemas centrada em pessoas — DNA do DT moderno.</p>
-    </div>
-  </div>
-
-  <div class="flex gap-3 items-start">
-    <div class="w-16 flex-shrink-0 text-right">
       <span class="inline-block bg-teal-100 text-teal-800 text-xs font-bold px-2 py-1 rounded">1969</span>
     </div>
     <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
@@ -106,15 +96,7 @@ export const modules = [
     </div>
   </div>
 
-  <div class="flex gap-3 items-start">
-    <div class="w-16 flex-shrink-0 text-right">
-      <span class="inline-block bg-teal-100 text-teal-800 text-xs font-bold px-2 py-1 rounded">1973</span>
-    </div>
-    <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
-      <p class="text-sm font-semibold text-gray-900">Robert McKim</p>
-      <p class="text-xs text-gray-600"><em>Experiences in Visual Thinking</em> — consolida o pensamento visual como ferramenta central de inovação na engenharia.</p>
-    </div>
-  </div>
+
 
   <div class="flex gap-3 items-start">
     <div class="w-16 flex-shrink-0 text-right">
@@ -136,15 +118,7 @@ export const modules = [
     </div>
   </div>
 
-  <div class="flex gap-3 items-start">
-    <div class="w-16 flex-shrink-0 text-right">
-      <span class="inline-block bg-blue-100 text-blue-800 text-xs font-bold px-2 py-1 rounded">2004</span>
-    </div>
-    <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
-      <p class="text-sm font-semibold text-gray-900">d.school — Stanford</p>
-      <p class="text-xs text-gray-600">Instituto de Design de Stanford sistematiza as 5 etapas que usamos hoje: Empatia → Definição → Ideação → Prototipagem → Teste.</p>
-    </div>
-  </div>
+
 
   <div class="flex gap-3 items-start">
     <div class="w-16 flex-shrink-0 text-right">
