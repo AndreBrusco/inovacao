@@ -400,6 +400,9 @@ export const modules = [
 </div>`,
       },
     ],
+    challenge: {
+      type: 'notion-board',
+    },
   },
   {
     id: 5,

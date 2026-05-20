@@ -5,6 +5,7 @@ import ProgressBar from '../components/ProgressBar'
 import VideoEmbed from '../components/VideoEmbed'
 import ModuleChallenge from '../components/ModuleChallenge'
 import ModuleChallengeImageGen from '../components/ModuleChallengeImageGen'
+import ModuleChallengeNotionBoard from '../components/ModuleChallengeNotionBoard'
 import { modules } from '../data/modules'
 import { useProgress } from '../hooks/useProgress'
 
@@ -105,6 +106,8 @@ export default function Module() {
       {/* Desafio (se disponível para este módulo) */}
       {module.challenge?.type === 'image-gen' ? (
         <ModuleChallengeImageGen challenge={module.challenge} />
+      ) : module.challenge?.type === 'notion-board' ? (
+        <ModuleChallengeNotionBoard challenge={module.challenge} />
       ) : module.challenge ? (
         <ModuleChallenge challenge={module.challenge} />
       ) : null}
