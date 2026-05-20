@@ -81,6 +81,88 @@ export const modules = [
         body: '<p><strong>Uma abordagem colaborativa e centrada no ser humano</strong> para desenvolver soluções criativas de forma iterativa.</p><p class="mt-2">Não começa nas soluções — <strong>começa nas dores das pessoas.</strong> Surgiu em Stanford e foi popularizada pela IDEO.</p><div class="bg-blue-50 border-l-4 border-blue-500 px-4 py-3 my-3 rounded-r"><p class="font-semibold text-blue-900">A premissa é simples: <strong>entender antes de propor.</strong></p></div>',
       },
       {
+        title: 'A história do Design Thinking',
+        body: `<p class="text-sm text-gray-600 mb-4">O DT tem raízes mais antigas do que a IDEO — a história começa quase 60 anos atrás.</p>
+
+<div class="space-y-3">
+
+  <div class="flex gap-3 items-start">
+    <div class="w-16 flex-shrink-0 text-right">
+      <span class="inline-block bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded">1919</span>
+    </div>
+    <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
+      <p class="text-sm font-semibold text-gray-900">Bauhaus</p>
+      <p class="text-xs text-gray-600">Escola alemã já praticava multidisciplinaridade e resolução de problemas centrada em pessoas — DNA do DT moderno.</p>
+    </div>
+  </div>
+
+  <div class="flex gap-3 items-start">
+    <div class="w-16 flex-shrink-0 text-right">
+      <span class="inline-block bg-teal-100 text-teal-800 text-xs font-bold px-2 py-1 rounded">1969</span>
+    </div>
+    <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
+      <p class="text-sm font-semibold text-gray-900">Herbert Simon</p>
+      <p class="text-xs text-gray-600"><em>The Sciences of the Artificial</em> — primeira vez que o design é descrito como "forma de pensar", não apenas forma de fazer.</p>
+    </div>
+  </div>
+
+  <div class="flex gap-3 items-start">
+    <div class="w-16 flex-shrink-0 text-right">
+      <span class="inline-block bg-teal-100 text-teal-800 text-xs font-bold px-2 py-1 rounded">1973</span>
+    </div>
+    <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
+      <p class="text-sm font-semibold text-gray-900">Robert McKim</p>
+      <p class="text-xs text-gray-600"><em>Experiences in Visual Thinking</em> — consolida o pensamento visual como ferramenta central de inovação na engenharia.</p>
+    </div>
+  </div>
+
+  <div class="flex gap-3 items-start">
+    <div class="w-16 flex-shrink-0 text-right">
+      <span class="inline-block bg-purple-100 text-purple-800 text-xs font-bold px-2 py-1 rounded">1980s</span>
+    </div>
+    <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
+      <p class="text-sm font-semibold text-gray-900">Rolf Faste — Stanford</p>
+      <p class="text-xs text-gray-600">Formaliza o DT como "ação criativa" e cria o programa em Stanford — onde forma David Kelley.</p>
+    </div>
+  </div>
+
+  <div class="flex gap-3 items-start">
+    <div class="w-16 flex-shrink-0 text-right">
+      <span class="inline-block bg-coral-100 text-red-700 text-xs font-bold px-2 py-1 rounded bg-red-100">1991</span>
+    </div>
+    <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
+      <p class="text-sm font-semibold text-gray-900">IDEO fundada por David Kelley</p>
+      <p class="text-xs text-gray-600">Aplica o DT em projetos corporativos reais — mas curiosamente ainda sem usar o nome "Design Thinking" nos primeiros anos.</p>
+    </div>
+  </div>
+
+  <div class="flex gap-3 items-start">
+    <div class="w-16 flex-shrink-0 text-right">
+      <span class="inline-block bg-blue-100 text-blue-800 text-xs font-bold px-2 py-1 rounded">2004</span>
+    </div>
+    <div class="flex-1 border-l-2 border-gray-200 pl-3 pb-2">
+      <p class="text-sm font-semibold text-gray-900">d.school — Stanford</p>
+      <p class="text-xs text-gray-600">Instituto de Design de Stanford sistematiza as 5 etapas que usamos hoje: Empatia → Definição → Ideação → Prototipagem → Teste.</p>
+    </div>
+  </div>
+
+  <div class="flex gap-3 items-start">
+    <div class="w-16 flex-shrink-0 text-right">
+      <span class="inline-block bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded">2006–09</span>
+    </div>
+    <div class="flex-1 border-l-2 border-amber-200 pl-3 pb-2">
+      <p class="text-sm font-semibold text-gray-900">Tim Brown globaliza o DT</p>
+      <p class="text-xs text-gray-600">Apresenta no Fórum de Davos (2006) e publica <em>Change by Design</em> (2009) — bestseller que coloca o DT nas prateleiras de gestores do mundo inteiro.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-xl text-xs text-blue-800">
+  <strong>Ponto-chave:</strong> inovação raramente surge do zero. O próprio DT é uma recombinação de décadas de ideias — Bauhaus + engenharia + psicologia + negócios.
+</div>`,
+      },
+      {
         title: 'Fase 1 — Empatia',
         body: '<p><span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded mr-2">1</span> <strong>Entender profundamente as pessoas envolvidas.</strong></p><p class="mt-2">Isso significa <strong>sair do achismo e ir a campo:</strong> conversar, observar, acompanhar. Não fique no nível superficial.</p><div class="bg-blue-50 border-l-4 border-blue-500 px-4 py-3 my-3 rounded-r"><p class="text-sm"><strong>Sair de:</strong> "o usuário é resistente"</p><p class="text-sm mt-1"><strong>Chegar em:</strong> "o servidor evita o SIGAD porque ele <em>trava justamente quando há mais pressa</em>"</p><p class="text-xs text-blue-900 mt-2">← Detalhe que muda tudo.</p></div>',
       },
@@ -90,7 +172,67 @@ export const modules = [
       },
       {
         title: 'Fase 3 — Ideação',
-        body: '<p><span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded mr-2">3</span> <strong>Gerar o máximo de ideias possíveis sem julgamento.</strong></p><p class="mt-2"><strong>Ferramentas:</strong> Brainstorming clássico • Crazy 8 (8 ideias em 8 minutos) • SCAMPER</p><div class="bg-orange-50 border-l-4 border-orange-400 px-4 py-3 my-3 rounded-r"><p class="font-semibold text-orange-900">Regra de ouro: <strong>quantidade antes de qualidade</strong></p><p class="text-orange-800 text-sm mt-2">A filtragem vem depois. Ideias absurdas às vezes geram soluções brilhantes.</p></div>',
+        body: `<p><span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded mr-2">3</span> <strong>Gerar o máximo de ideias possíveis sem julgamento.</strong></p>
+
+<div class="bg-orange-50 border-l-4 border-orange-400 px-4 py-3 my-3 rounded-r">
+  <p class="font-semibold text-orange-900">Regra de ouro: <strong>quantidade antes de qualidade</strong></p>
+  <p class="text-orange-800 text-sm mt-2">A filtragem vem depois. Ideias absurdas às vezes geram soluções brilhantes.</p>
+</div>
+
+<p class="font-semibold text-gray-900 mt-4 mb-3">Principais técnicas de ideação:</p>
+
+<div class="space-y-4">
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <p class="font-semibold text-gray-900 text-sm mb-1">🧠 Brainstorming clássico</p>
+    <p class="text-gray-600 text-sm">Grupo gera ideias livremente, sem críticas. Toda ideia é bem-vinda. Depois, o grupo filtra e prioriza.</p>
+  </div>
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <p class="font-semibold text-gray-900 text-sm mb-1">⚡ Crazy 8s</p>
+    <p class="text-gray-600 text-sm">Cada participante dobra uma folha de papel em 8 partes e tem <strong>8 minutos para esboçar 8 ideias diferentes</strong> — 1 por quadrante. O objetivo é quebrar o bloqueio criativo pela velocidade: sem tempo para autocensura, o cérebro improvisa. Ideal para a etapa individual antes de um brainstorming coletivo.</p>
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 px-3 py-2 mt-2 rounded-r text-xs text-yellow-900 font-medium">1 minuto por ideia. Esboços, não obras de arte.</div>
+  </div>
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <p class="font-semibold text-gray-900 text-sm mb-2">🔄 SCAMPER</p>
+    <p class="text-gray-600 text-sm mb-3">Checklist de perguntas criativas criado por Bob Eberle (1971), baseado em Alex Osborn. Cada letra é um verbo de ação que força olhar para o problema de um ângulo diferente. Aplicável na etapa de Ideação do DT — especialmente útil quando o grupo trava.</p>
+    <div class="space-y-2">
+      <div class="flex items-start gap-3 p-2 rounded-lg bg-purple-50 cursor-pointer hover:bg-purple-100 transition-colors" onclick="sendPrompt && sendPrompt('Dê exemplos práticos de como usar o S do SCAMPER — Substituir — para inovar em serviços do setor público')">
+        <span class="inline-block w-7 h-7 rounded-md bg-purple-200 text-purple-900 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">S</span>
+        <div><p class="text-xs font-semibold text-gray-900">Substitute — Substituir</p><p class="text-xs text-gray-600">"O que posso substituir? Materiais, processos, pessoas, regras?"</p></div>
+      </div>
+      <div class="flex items-start gap-3 p-2 rounded-lg bg-teal-50 cursor-pointer hover:bg-teal-100 transition-colors" onclick="sendPrompt && sendPrompt('Dê exemplos práticos de como usar o C do SCAMPER — Combinar — para inovar em serviços do setor público')">
+        <span class="inline-block w-7 h-7 rounded-md bg-teal-200 text-teal-900 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">C</span>
+        <div><p class="text-xs font-semibold text-gray-900">Combine — Combinar</p><p class="text-xs text-gray-600">"O que posso unir? Dois serviços, dois públicos, dois processos?"</p></div>
+      </div>
+      <div class="flex items-start gap-3 p-2 rounded-lg bg-blue-50 cursor-pointer hover:bg-blue-100 transition-colors" onclick="sendPrompt && sendPrompt('Dê exemplos práticos de como usar o A do SCAMPER — Adaptar — para inovar em serviços do setor público')">
+        <span class="inline-block w-7 h-7 rounded-md bg-blue-200 text-blue-900 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">A</span>
+        <div><p class="text-xs font-semibold text-gray-900">Adapt — Adaptar</p><p class="text-xs text-gray-600">"O que posso adaptar de outro contexto? Que ideia de fora posso trazer?"</p></div>
+      </div>
+      <div class="flex items-start gap-3 p-2 rounded-lg bg-amber-50 cursor-pointer hover:bg-amber-100 transition-colors" onclick="sendPrompt && sendPrompt('Dê exemplos práticos de como usar o M do SCAMPER — Modificar — para inovar em serviços do setor público')">
+        <span class="inline-block w-7 h-7 rounded-md bg-amber-200 text-amber-900 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">M</span>
+        <div><p class="text-xs font-semibold text-gray-900">Modify / Magnify — Modificar / Ampliar</p><p class="text-xs text-gray-600">"O que posso ampliar, exagerar, enfatizar? O que posso reduzir?"</p></div>
+      </div>
+      <div class="flex items-start gap-3 p-2 rounded-lg bg-red-50 cursor-pointer hover:bg-red-100 transition-colors" onclick="sendPrompt && sendPrompt('Dê exemplos práticos de como usar o P do SCAMPER — Put to other uses — para inovar em serviços do setor público')">
+        <span class="inline-block w-7 h-7 rounded-md bg-red-200 text-red-900 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">P</span>
+        <div><p class="text-xs font-semibold text-gray-900">Put to other uses — Usar de outro jeito</p><p class="text-xs text-gray-600">"Posso usar isso de uma forma diferente? Para outro público, outro fim?"</p></div>
+      </div>
+      <div class="flex items-start gap-3 p-2 rounded-lg bg-green-50 cursor-pointer hover:bg-green-100 transition-colors" onclick="sendPrompt && sendPrompt('Dê exemplos práticos de como usar o E do SCAMPER — Eliminar — para inovar em serviços do setor público')">
+        <span class="inline-block w-7 h-7 rounded-md bg-green-200 text-green-900 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">E</span>
+        <div><p class="text-xs font-semibold text-gray-900">Eliminate — Eliminar</p><p class="text-xs text-gray-600">"O que posso remover? O que é desnecessário, redundante, burocrático?"</p></div>
+      </div>
+      <div class="flex items-start gap-3 p-2 rounded-lg bg-pink-50 cursor-pointer hover:bg-pink-100 transition-colors" onclick="sendPrompt && sendPrompt('Dê exemplos práticos de como usar o R do SCAMPER — Rearrange/Reverse — para inovar em serviços do setor público')">
+        <span class="inline-block w-7 h-7 rounded-md bg-pink-200 text-pink-900 text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">R</span>
+        <div><p class="text-xs font-semibold text-gray-900">Rearrange / Reverse — Reorganizar / Inverter</p><p class="text-xs text-gray-600">"E se eu inverter a ordem? E se o usuário viesse primeiro, não último?"</p></div>
+      </div>
+    </div>
+    <div class="mt-3 p-3 bg-gray-50 border border-gray-200 rounded-lg text-xs text-gray-600">
+      <strong class="text-gray-900">Como usar em sala:</strong> escolha um serviço público concreto, escreva no centro do quadro e passe cada letra como gatilho de pergunta para os grupos. O objetivo não é responder todas as letras — é usar as que destravarem ideias.
+    </div>
+  </div>
+
+</div>`,
       },
       {
         title: 'Fase 4 — Prototipagem',
@@ -119,7 +261,7 @@ export const modules = [
       },
       {
         title: 'Scrum em resumo',
-        body: '<p class="text-sm mb-3"><strong>Framework ágil com sprints</strong> — ciclos curtos de <strong>1 a 4 semanas</strong> com entrega ao final.</p><p class="text-sm font-semibold text-gray-900 mb-2">Três papéis:</p><div class="grid grid-cols-2 gap-3 mb-4"><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Product Owner</p><p class="text-gray-600 text-xs mt-1">Dono do produto e prioridades</p></div><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Scrum Master</p><p class="text-gray-600 text-xs mt-1">Facilitador do processo</p></div></div><p class="text-sm font-semibold text-gray-900 mb-2">Quatro cerimônias:</p><div class="grid grid-cols-2 gap-3"><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Planning</p><p class="text-gray-600 text-xs mt-1">O que fazer?</p></div><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Daily</p><p class="text-gray-600 text-xs mt-1">O que está rolando?</p></div><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Review</p><p class="text-gray-600 text-xs mt-1">O que entregamos?</p></div><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Retrospectiva</p><p class="text-gray-600 text-xs mt-1">Como melhoramos?</p></div></div>',
+        body: '<p class="text-sm mb-3"><strong>Framework ágil com sprints</strong> — ciclos curtos de <strong>1 a 4 semanas</strong> com entrega ao final.</p><p class="text-sm font-semibold text-gray-900 mb-2">Três papéis:</p><div class="grid grid-cols-1 gap-3 mb-4"><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Product Owner</p><p class="text-gray-600 text-xs mt-1">Dono do produto e prioridades — define O QUE será feito</p></div><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Scrum Master</p><p class="text-gray-600 text-xs mt-1">Facilitador do processo — remove impedimentos e protege o time</p></div><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Equipe de Desenvolvimento</p><p class="text-gray-600 text-xs mt-1">Time multidisciplinar autogerenciado — executa e decide COMO fazer. Idealmente de 3 a 9 pessoas.</p></div></div><p class="text-sm font-semibold text-gray-900 mb-2">Quatro cerimônias:</p><div class="grid grid-cols-2 gap-3"><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Planning</p><p class="text-gray-600 text-xs mt-1">O que fazer?</p></div><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Daily</p><p class="text-gray-600 text-xs mt-1">O que está rolando?</p></div><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Review</p><p class="text-gray-600 text-xs mt-1">O que entregamos?</p></div><div class="border border-gray-200 rounded-lg p-3 bg-white"><p class="font-semibold text-gray-900 text-xs">Retrospectiva</p><p class="text-gray-600 text-xs mt-1">Como melhoramos?</p></div></div>',
       },
       {
         title: 'Kanban',
@@ -132,6 +274,130 @@ export const modules = [
       {
         title: 'Gestão Tradicional vs. Ágil',
         body: '<table class="w-full border-collapse text-sm"><thead><tr class="bg-orange-100"><th class="border border-gray-200 p-3 text-left font-semibold text-gray-900">Gestão Tradicional</th><th class="border border-gray-200 p-3 text-left font-semibold text-gray-900">Gestão Ágil</th></tr></thead><tbody><tr><td class="border border-gray-200 p-3">Planejar tudo antes de começar</td><td class="border border-gray-200 p-3">Planejar o suficiente e adaptar no caminho</td></tr><tr class="bg-gray-50"><td class="border border-gray-200 p-3">TAP, TEP, escopo fechado</td><td class="border border-gray-200 p-3">Escopo adaptável, iterativo</td></tr><tr><td class="border border-gray-200 p-3">Ideal para: requisitos estáveis e previsíveis</td><td class="border border-gray-200 p-3">Ideal para: ambientes incertos e mutáveis</td></tr><tr class="bg-gray-50"><td class="border border-gray-200 p-3">Mudanças são custosas</td><td class="border border-gray-200 p-3">Mudanças são esperadas</td></tr></tbody></table><p class="text-xs text-gray-600 mt-3"><strong>Cada abordagem tem seu contexto ideal.</strong> Escolha baseado na natureza do projeto, não em preferência pessoal.</p>',
+      },
+      {
+        title: 'Outras ferramentas ágeis',
+        body: `<p class="text-sm text-gray-600 mb-4">Além de Scrum e Kanban, o ecossistema ágil oferece ferramentas para diferentes contextos. As tags indicam quando cada uma se encaixa melhor.</p>
+
+<div class="space-y-3">
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <div>
+        <p class="text-sm font-semibold text-gray-900">XP — Extreme Programming</p>
+        <p class="text-xs text-gray-500">Kent Beck, 1996</p>
+      </div>
+      <div class="flex flex-wrap gap-1 justify-end">
+        <span class="text-xs px-2 py-0.5 rounded-full bg-purple-100 text-purple-800 font-medium">Equipes pequenas</span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-800 font-medium">Qualidade</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">Eleva boas práticas ao extremo: revisão em pares, ciclos curtíssimos de entrega, feedback constante. <strong>Fora da TI:</strong> revisão em dupla de normas, pareceres e políticas públicas.</p>
+  </div>
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <div>
+        <p class="text-sm font-semibold text-gray-900">FDD — Feature Driven Development</p>
+        <p class="text-xs text-gray-500">Jeff De Luca, 1997</p>
+      </div>
+      <div class="flex flex-wrap gap-1 justify-end">
+        <span class="text-xs px-2 py-0.5 rounded-full bg-teal-100 text-teal-800 font-medium">Entregas claras</span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-700 font-medium">Médias equipes</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">Organiza o trabalho em "funcionalidades" entregáveis com nome, responsável e prazo de 2 semanas. <strong>Setor público:</strong> reformas de processos organizadas por entrega — cada melhoria tem dono e data.</p>
+  </div>
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <div>
+        <p class="text-sm font-semibold text-gray-900">Lean Thinking</p>
+        <p class="text-xs text-gray-500">Toyota, anos 1950</p>
+      </div>
+      <div class="flex flex-wrap gap-1 justify-end">
+        <span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-medium">Qualquer equipe</span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-800 font-medium">Eliminar desperdício</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">A raiz cultural de todo o movimento ágil. Identifica e elimina os 7 desperdícios (<em>muda</em>): superprodução, espera, transporte, excesso de processamento, estoque, movimento e defeitos. <strong>Setor público:</strong> mapear fluxo de valor em processos de compras ou protocolo para cortar etapas que não agregam valor ao cidadão.</p>
+  </div>
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <div>
+        <p class="text-sm font-semibold text-gray-900">Lean Startup</p>
+        <p class="text-xs text-gray-500">Eric Ries, 2011</p>
+      </div>
+      <div class="flex flex-wrap gap-1 justify-end">
+        <span class="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-800 font-medium">Projetos-piloto</span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-medium">Incerteza alta</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">Ciclo <strong>Construir → Medir → Aprender</strong>: entrega o mínimo necessário (MPV) para aprender com usuários reais antes de escalar. Diretamente ligado ao MPV do Módulo 8. <strong>Setor público:</strong> projetos piloto em políticas públicas como forma de testar antes de escalar para todo o órgão.</p>
+  </div>
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <div>
+        <p class="text-sm font-semibold text-gray-900">Crystal Methods</p>
+        <p class="text-xs text-gray-500">Alistair Cockburn, 2004</p>
+      </div>
+      <div class="flex flex-wrap gap-1 justify-end">
+        <span class="text-xs px-2 py-0.5 rounded-full bg-purple-100 text-purple-800 font-medium">Equipes pequenas</span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-700 font-medium">Baixa cerimônia</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">Família de métodos que varia com o tamanho do time: Crystal Clear (3–8 pessoas) é o mais leve de todos. Prioriza comunicação e entrega, com cerimônias mínimas. <strong>Setor público:</strong> equipes pequenas de projetos-piloto que precisam de agilidade sem a estrutura do Scrum completo.</p>
+  </div>
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <div>
+        <p class="text-sm font-semibold text-gray-900">DSDM — Dynamic Systems Development</p>
+        <p class="text-xs text-gray-500">Consórcio DSDM, 1994</p>
+      </div>
+      <div class="flex flex-wrap gap-1 justify-end">
+        <span class="text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-800 font-medium">Prazo legal/orçamentário</span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-800 font-medium">Governo</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">Inverte a lógica: prazo e custo são fixos, o escopo varia. Usa priorização <strong>MoSCoW</strong> (Must, Should, Could, Won't). Muito popular no governo britânico. <strong>Setor público:</strong> projetos com deadline legal ou orçamentária fixa — o que não cabe no prazo vai para a próxima versão, não atrasa a entrega.</p>
+  </div>
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <div>
+        <p class="text-sm font-semibold text-gray-900">SAFe — Scaled Agile Framework</p>
+        <p class="text-xs text-gray-500">Dean Leffingwell, 2011</p>
+      </div>
+      <div class="flex flex-wrap gap-1 justify-end">
+        <span class="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-800 font-medium">Equipes maiores</span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-medium">Transformação digital</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">Para quando uma organização inteira precisa ser ágil, não só um time. Coordena múltiplos times Scrum em torno de um backlog estratégico compartilhado. <strong>Setor público:</strong> transformações digitais de grande porte em órgãos com múltiplas áreas e sistemas legados.</p>
+  </div>
+
+  <div class="border border-gray-200 rounded-xl p-4 bg-white">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <div>
+        <p class="text-sm font-semibold text-gray-900">OKRs — Objectives & Key Results</p>
+        <p class="text-xs text-gray-500">Andy Grove / Google</p>
+      </div>
+      <div class="flex flex-wrap gap-1 justify-end">
+        <span class="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-medium">Qualquer equipe</span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-800 font-medium">Alinhamento estratégico</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-600">Não é metodologia de projeto — é ferramenta de alinhamento. Define O QUE alcançar (objetivo qualitativo) e COMO medir (resultados-chave mensuráveis) em ciclos trimestrais. Conecta sprints à estratégia institucional. Já usado no MPOG e agências reguladoras. <strong>Ver também:</strong> Módulo 9.</p>
+  </div>
+
+</div>
+
+<div class="mt-4 p-3 bg-gray-50 border border-gray-200 rounded-xl text-xs text-gray-600">
+  <strong class="text-gray-900">Como escolher?</strong> Não existe resposta certa — existe contexto. Equipe pequena num piloto de 3 meses → Crystal ou Lean Startup. Transformação de 2 anos com 8 equipes → SAFe. Fluxo operacional contínuo sem data de fim → Kanban. A escolha certa é a que serve ao problema, não à preferência.
+</div>`,
       },
     ],
   },
