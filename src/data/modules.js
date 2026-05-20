@@ -158,17 +158,6 @@ export const modules = [
 <div class="space-y-4">
 
   <div class="border border-gray-200 rounded-xl p-4 bg-white">
-    <p class="font-semibold text-gray-900 text-sm mb-1">🧠 Brainstorming clássico</p>
-    <p class="text-gray-600 text-sm">Grupo gera ideias livremente, sem críticas. Toda ideia é bem-vinda. Depois, o grupo filtra e prioriza.</p>
-  </div>
-
-  <div class="border border-gray-200 rounded-xl p-4 bg-white">
-    <p class="font-semibold text-gray-900 text-sm mb-1">⚡ Crazy 8s</p>
-    <p class="text-gray-600 text-sm">Cada participante dobra uma folha de papel em 8 partes e tem <strong>8 minutos para esboçar 8 ideias diferentes</strong> — 1 por quadrante. O objetivo é quebrar o bloqueio criativo pela velocidade: sem tempo para autocensura, o cérebro improvisa. Ideal para a etapa individual antes de um brainstorming coletivo.</p>
-    <div class="bg-yellow-50 border-l-4 border-yellow-400 px-3 py-2 mt-2 rounded-r text-xs text-yellow-900 font-medium">1 minuto por ideia. Esboços, não obras de arte.</div>
-  </div>
-
-  <div class="border border-gray-200 rounded-xl p-4 bg-white">
     <p class="font-semibold text-gray-900 text-sm mb-2">🔄 SCAMPER</p>
     <p class="text-gray-600 text-sm mb-3">Checklist de perguntas criativas criado por Bob Eberle (1971), baseado em Alex Osborn. Cada letra é um verbo de ação que força olhar para o problema de um ângulo diferente. Aplicável na etapa de Ideação do DT — especialmente útil quando o grupo trava.</p>
     <div class="space-y-2">
