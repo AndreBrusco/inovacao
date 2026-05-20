@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { ChevronDown, CheckCircle2, Circle } from 'lucide-react'
 
 export default function Pill({ pill, index, isRead, onToggleRead, accentColor, accentLight }) {
   const [open, setOpen] = useState(false)
+  const bodyRef = useRef(null)
 
   return (
     <div
@@ -39,7 +40,11 @@ export default function Pill({ pill, index, isRead, onToggleRead, accentColor, a
         </div>
       </button>
 
-      <div className={`pill-body ${open ? 'open' : ''}`}>
+      <div
+        ref={bodyRef}
+        className="pill-body"
+        style={{ maxHeight: open ? `${bodyRef.current?.scrollHeight ?? 9999}px` : '0' }}
+      >
         <div className="px-4 pb-4">
           <div className="ml-12">
             <div

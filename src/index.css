@@ -72,10 +72,7 @@
 .pill-body {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.35s ease, padding 0.2s ease;
-}
-.pill-body.open {
-  max-height: 600px;
+  transition: max-height 0.4s ease;
 }
 
 /* Pill content styles */
