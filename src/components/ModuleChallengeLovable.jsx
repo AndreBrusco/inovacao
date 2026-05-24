@@ -9,6 +9,15 @@ Funcionalidades principais:
 [funcionalidade 2]
 [funcionalidade 3]
 
+# O site deve conter:
+Breadcrumbs para navegação
+Barra lateral com menu de opções
+Página inicial com visão geral e atalhos
+Páginas internas para cada funcionalidade
+
+
+# Formato e estilo:
+Use fonte arial.
 Use as cores institucionais do Senado Federal: verde escuro (#005A30), azul marinho (#003366) e dourado (#C9A84C).
 O layout deve ser limpo, profissional e responsivo. Inclua uma barra de navegação, uma página inicial com hero section explicando o propósito, e pelo menos uma tela funcional com a funcionalidade principal.`
 
@@ -68,11 +77,10 @@ function PromptBlock() {
         </div>
         <button
           onClick={handleCopy}
-          className={`inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg transition-all duration-200 ${
-            copied
+          className={`inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg transition-all duration-200 ${copied
               ? 'bg-green-600 text-white'
               : 'bg-gray-700 text-gray-300 hover:bg-gray-600 hover:text-white'
-          }`}
+            }`}
         >
           {copied ? (
             <><Check size={12} /> Copiado!</>
@@ -117,7 +125,7 @@ export default function ModuleChallengeLovable({ challenge }) {
           <p className="text-gray-700 text-sm leading-relaxed">
             Você acabou de aprender o que é um MVP e por que ele existe. Agora é hora de sair do
             conceito e colocar a mão na massa. Com o <strong>Lovable</strong>, você vai criar um
-            protótipo funcional de um site em minutos — sem escrever uma linha de código — e
+            protótipo funcional de um site em minutos, sem escrever uma linha de código — e
             apresentar para a turma.
           </p>
         </div>
@@ -134,6 +142,7 @@ export default function ModuleChallengeLovable({ challenge }) {
             Pense em algo que você ou seus colegas enfrentam no dia a dia. Pode ser um processo
             burocrático, uma necessidade de informação, uma melhoria no atendimento interno. Você
             vai usar o Lovable para transformar essa ideia em um site funcional.
+            Seja ousada(o)! Adicione cores, funcionalidades, estilos, ideias e muito mais no prompt a seguir.
           </p>
         </div>
 
