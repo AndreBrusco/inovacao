@@ -519,6 +519,9 @@ export const modules = [
         body: '<p class="text-sm"><strong>Sucesso não é nunca errar</strong> — é <strong>aprender rápido e corrigir o curso.</strong></p><div class="bg-orange-50 border-l-4 border-orange-400 px-4 py-3 my-3 rounded-r"><p class="font-semibold text-orange-900">Mentalidade:</p><p class="text-orange-800 text-sm mt-1">Culturas que <strong>aceitam o erro controlado</strong> inovam mais rápido.</p></div><div class="space-y-2 my-3 text-sm"><div><p class="text-red-700"><strong>❌ Erro não controlado:</strong> desperdício</p></div><div><p class="text-green-700"><strong>✓ Erro planejado:</strong> dentro de um experimento = aprendizado</p></div></div><div class="bg-green-50 border-l-4 border-green-500 px-4 py-3 rounded-r"><p class="font-semibold text-green-900">Princípio essencial:</p><p class="text-green-800 text-sm mt-1">O fracasso deve ser <strong>pequeno, rápido e barato.</strong></p><p class="text-xs text-green-700 mt-1">Assim você aprende sem queimar a organização.</p></div>',
       },
     ],
+    challenge: {
+      type: 'lovable',
+    },
   },
   {
     id: 9,

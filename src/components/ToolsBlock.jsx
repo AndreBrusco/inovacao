@@ -154,6 +154,25 @@ function LogoClaude() {
   )
 }
 
+function LogoLovable() {
+  return (
+    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+      <defs>
+        <linearGradient id="lov-g" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#059669" />
+          <stop offset="100%" stopColor="#0284C7" />
+        </linearGradient>
+      </defs>
+      <rect width="64" height="64" rx="14" fill="url(#lov-g)" />
+      <path
+        d="M32 48 C32 48 14 36 14 24 C14 18 18 14 24 14 C28 14 32 17 32 17 C32 17 36 14 40 14 C46 14 50 18 50 24 C50 36 32 48 32 48Z"
+        fill="white"
+        opacity="0.95"
+      />
+    </svg>
+  )
+}
+
 function LogoClaudeCode() {
   return (
     <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
@@ -191,6 +210,7 @@ const LOGOS = {
   'Canva': LogoCanva,
   'Claude': LogoClaude,
   'Claude Code': LogoClaudeCode,
+  'Lovable': LogoLovable,
 }
 
 function ToolLogo({ name }) {

@@ -77,6 +77,13 @@ export const lessons = [
           'Design gráfico simplificado. Crie apresentações, infográficos e materiais visuais profissionais sem precisar de experiência em design.',
         category: 'Criação Visual',
       },
+      {
+        name: 'Lovable',
+        url: 'https://lovable.dev',
+        description:
+          'Plataforma de geração de aplicações web com IA. Descreva o produto que você quer criar em linguagem natural e a IA gera o código, o design e a estrutura — sem precisar programar. Ideal para protótipos rápidos e MVPs.',
+        category: 'IA Generativa',
+      },
     ],
   },
   {

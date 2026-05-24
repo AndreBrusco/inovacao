@@ -6,6 +6,7 @@ import VideoEmbed from '../components/VideoEmbed'
 import ModuleChallenge from '../components/ModuleChallenge'
 import ModuleChallengeImageGen from '../components/ModuleChallengeImageGen'
 import ModuleChallengeNotionBoard from '../components/ModuleChallengeNotionBoard'
+import ModuleChallengeLovable from '../components/ModuleChallengeLovable'
 import { modules } from '../data/modules'
 import { useProgress } from '../hooks/useProgress'
 
@@ -108,6 +109,8 @@ export default function Module() {
         <ModuleChallengeImageGen challenge={module.challenge} />
       ) : module.challenge?.type === 'notion-board' ? (
         <ModuleChallengeNotionBoard challenge={module.challenge} />
+      ) : module.challenge?.type === 'lovable' ? (
+        <ModuleChallengeLovable challenge={module.challenge} />
       ) : module.challenge ? (
         <ModuleChallenge challenge={module.challenge} />
       ) : null}
